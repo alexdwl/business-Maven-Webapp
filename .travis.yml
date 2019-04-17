@@ -1,6 +1,7 @@
 language: java
-
-mvn sonar:sonar \
+install:
+ - mvn install
+ - mvn sonar:sonar \
   -Dsonar.projectKey=alexdwl_business-Maven-Webapp \
   -Dsonar.organization=alexdwl-github \
   -Dsonar.host.url=https://sonarcloud.io \
