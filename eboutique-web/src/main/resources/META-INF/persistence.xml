@@ -14,10 +14,10 @@
       <property name="javax.persistence.jdbc.driver"
         value="com.mysql.jdbc.Driver" />
       <property name="javax.persistence.jdbc.url"
-        value="jdbc:mysql://192.168.99.100:3306/boutique" />
+        value="jdbc:mysql://localhost:3306/boutique" />
       <property name="javax.persistence.jdbc.user" value="root" />
       <property name="javax.persistence.jdbc.password"
-        value="password" />
+        value="arctosa" />
       <property name="hibernate.show_sql" value="true" />
       <property name="hibernate.format_sql" value="true" />
 </properties>
